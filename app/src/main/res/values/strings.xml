@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">form4</string>
+    <string name="app_name">Kalkulator BMI</string>
+
+    <string name="header">Kalkulator BMI</string>
+    <string name="label_weight">Waga (kg)</string>
+    <string name="label_height">Wzrost (cm)</string>
+    <string name="label_gender">Płeć</string>
+
+    <string name="hint_weight">np. 70.5</string>
+    <string name="hint_height">np. 175</string>
+
+    <string name="gender_male">Mężczyzna</string>
+    <string name="gender_female">Kobieta</string>
+
+    <string name="btn_calculate">OBLICZ BMI</string>
+
+    <string name="error_weight">Podaj poprawną wagę (większą od zera)</string>
+    <string name="error_height_empty">Podaj wzrost</string>
+    <string name="error_height_zero">Wzrost musi być większy od zera</string>
+    <string name="error_height_max">Wzrost nie może przekraczać 300 cm</string>
+    <string name="error_gender">Wybierz płeć</string>
+
+    <string name="bmi_result_format">Twoje BMI: %.2f\nKategoria: %s</string>
+    <string name="category_underweight">Niedowaga</string>
+    <string name="category_normal">Waga prawidłowa</string>
+    <string name="category_overweight">Nadwaga</string>
+    <string name="category_obese">Otyłość</string>
 </resources>
